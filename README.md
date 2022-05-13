@@ -19,7 +19,7 @@
 
 ## 👉 Sample screenshots taken
 
-<img src="screenshots/photo_Screenshot (150).png" alt="loginScreen" width="400"/><br>
+<img src="screenshots/Screenshot (150).png" alt="loginScreen" width="400"/><br>
 
 <img src="screenshots/Screenshot (149).png" alt="SignupScreen" width="400"/><br>
 
