@@ -1,9 +1,6 @@
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
-// import javafx.event.Event;
-// import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -29,9 +26,11 @@ public class loggedincontroller implements Initializable {
             Parent  root = FXMLLoader.load(getClass().getResource("login.fxml"));
                     
                     Scene scene= new Scene(root);
-                    Stage primaryStage=(Stage)button_logout.getScene().getWindow(); 
-                    primaryStage.setScene(scene);
-                    primaryStage.show();
+                    Stage Stage=(Stage)button_logout.getScene().getWindow(); 
+                    Stage.setScene(scene);
+                    Stage.setTitle("Login Form");
+
+                    Stage.show();
             
         } catch (Exception e) {
             e.printStackTrace();
@@ -40,10 +39,7 @@ public class loggedincontroller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-       
-
-            
-            
+                
                  
     }
   
