@@ -2,11 +2,7 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.ResourceBundle;
-
-// import javax.lang.model.util.ElementScanner14;
-
 import javafx.event.ActionEvent;
-// import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -53,7 +49,10 @@ public class SignupController implements Initializable {
             
             Scene scene= new Scene(root);
             Stage primaryStage=(Stage)button_back.getScene().getWindow(); 
+            primaryStage.setTitle("Login Form");
             primaryStage.setScene(scene);
+            
+
             primaryStage.show();
         } catch (Exception e) {
             e.printStackTrace();
@@ -67,9 +66,9 @@ public class SignupController implements Initializable {
         if ( (tx_username.getText().isBlank()==false && tx_password.getText().isBlank()==false && tx_email.getText().isBlank()==false)
         ) {
             Fine();
-            notS.setText("accoount created successfully");
+            notS.setText("Accoount successfully created ");
         } else {
-            notS.setText("please write all instructions");
+            notS.setText("Please fill all required information ");
         }
     }
       
