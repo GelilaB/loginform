@@ -3,7 +3,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -73,9 +72,11 @@ public class loginController implements Initializable{
             Parent root = FXMLLoader.load(getClass().getResource("logged.fxml"));
             
             Scene scene= new Scene(root);
-            Stage primaryStage=(Stage)button_sign.getScene().getWindow(); 
-            primaryStage.setScene(scene);
-            primaryStage.show();
+            Stage Stage=(Stage)button_sign.getScene().getWindow(); 
+            Stage.setScene(scene);
+            Stage.setTitle("Logged in");
+
+            Stage.show();
         }
         else{
             displayLabel.setText("Invalid Username and Paswword! please try again!!");
@@ -98,6 +99,8 @@ public class loginController implements Initializable{
                 Scene scene= new Scene(root);
                 Stage primaryStage=(Stage)button_sign.getScene().getWindow(); 
                 primaryStage.setScene(scene);
+                primaryStage.setTitle("Signup Form");
+
                 primaryStage.show();
             } catch (Exception e) {
                 e.printStackTrace();
