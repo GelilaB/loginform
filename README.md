@@ -19,8 +19,8 @@
 
 ## 👉 Sample screenshots taken
 
-<img src="screenshots/Screenshot (150).png" alt="loginScreen" width="400"/><br>
+<img src="screenshots/Screenshot (175).png" alt="loginScreen" width="400"/><br>
 
-<img src="screenshots/Screenshot (149).png" alt="SignupScreen" width="400"/><br>
+<img src="screenshots/Screenshot (176).png" alt="SignupScreen" width="400"/><br>
 
-<img src="screenshots/Screenshot (148).png" alt="LoggedinScreen" width="400"/><br>
+<img src="screenshots/Screenshot (177).png" alt="LoggedinScreen" width="400"/><br>
